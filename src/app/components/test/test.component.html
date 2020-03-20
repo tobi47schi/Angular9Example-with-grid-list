@@ -1,5 +1,10 @@
-<mat-grid-list [cols]="breakpoint" rowHeight="2:0.5" (window:resize)="onResize($event)">
-  <mat-grid-tile>1</mat-grid-tile>
+<mat-grid-list
+  [cols]="breakpoint"
+  rowHeight="2:0.5"
+  (window:resize)="onResize($event)"
+  [gutterSize]="'10px'"
+>
+  <mat-grid-tile [class.mat-elevation-z2]="true">1</mat-grid-tile>
   <mat-grid-tile>2</mat-grid-tile>
   <mat-grid-tile>3</mat-grid-tile>
   <mat-grid-tile>4</mat-grid-tile>

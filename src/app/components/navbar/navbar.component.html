@@ -1,0 +1,12 @@
+<!--<button mat-icon-button [matMenuTriggerFor]="menu">menu</button>-->
+<div class = "nav" style="background:black">
+<button mat-icon-button [matMenuTriggerFor]="menu">
+  <mat-icon style="color:pink">menu</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item [routerLink]="'/home'">
+    <mat-icon>home</mat-icon>
+  </button>
+  <button mat-menu-item [routerLink]="'/test'">Test</button>
+</mat-menu>
+</div>
