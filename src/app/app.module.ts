@@ -11,6 +11,7 @@ import { TestComponent } from './components/test/test.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {MatFormFieldModule} from '@angular/material/form-field';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 
@@ -31,7 +32,8 @@ import { HomeComponent } from './components/home/home.component';
     MatGridListModule,
     MatMenuModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

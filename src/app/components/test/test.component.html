@@ -5,9 +5,15 @@
   [gutterSize]="'10px'"
 >
   <mat-grid-tile [class.mat-elevation-z2]="true">1</mat-grid-tile>
-  <mat-grid-tile>2</mat-grid-tile>
-  <mat-grid-tile>3</mat-grid-tile>
+  <mat-grid-tile [class]="'blue'">2</mat-grid-tile>
+  <mat-grid-tile color="accent">3</mat-grid-tile>
   <mat-grid-tile>4</mat-grid-tile>
   <mat-grid-tile>5</mat-grid-tile>
   <mat-grid-tile>6</mat-grid-tile>
 </mat-grid-list>
+
+<mat-form-field>
+  <input  matInput  placeholder="Contact Name"  name="contactName"  required>
+</mat-form-field>
+<button mat-raised-button color="primary">leberkas</button>
+<button mat-flat-button color="accent" style="margin-left: 5px;">hi</button>
